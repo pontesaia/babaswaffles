@@ -1,13 +1,13 @@
 {
   "name": "nucampsite",
   "version": "1.0.0",
-  "description": "This is a website for the fictional campsites review site NuCamp.",  "main": "index.html",
+  "description": "This is a website for the fictional campsites review site NuCamp.",
+  "main": "index.html",
   "scripts": {
     "lite": "lite-server",
     "start": "npm run lite",
     "test": "echo \"Error: no test specified\" && exit 1"
- },
-
+  },
   "author": "pontesaia",
   "license": "ISC",
   "devDependencies": {
@@ -15,6 +15,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.0",
+    "font-awesome": "^4.7.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.12.9"
   }

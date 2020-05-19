@@ -37,6 +37,17 @@ footer {
     background-color: #901CAD;
 }
 
-.navbar a {
-    color: #fff;
+
+/* change the color of active links */
+.nav-item.active .nav-link {
+    color: #ffffff;
+
+}
+/* change the color of links */
+.nav-item .nav-link {
+    color: lightblue;
+}
+/* change the color of hovered links */
+.nav-item:hover .nav-link {
+    color: pink;
 }
