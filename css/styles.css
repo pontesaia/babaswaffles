@@ -80,3 +80,11 @@ h3{
 .nav-item:hover .nav-link {
     color: pink;
 }
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#carouselButton {z-index:3}
