@@ -3,14 +3,15 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: "Lobster", cursive;
+    /*font-family: "Lobster", cursive;*/
+    font-family: 'Sigmar One', cursive;
 }
 
 h2 {
     color: #3046C5;
 }
 
-header h2, h2 {
+header h2 {
     /*color: #CEC8FF;*/
     color: #901CAD;
     
@@ -25,7 +26,7 @@ header h2, h2 {
     background-color: rgb(4, 133, 101)!important;
 }
 h3{
-    color: rgb(4, 133, 101)
+    color: rgb(196, 198, 199)
 }
 .site-footer{
     background-image: linear-gradient(rgb(243, 242, 250), white);
@@ -36,15 +37,14 @@ h3{
     margin:0;
     padding: 30px;
     /*background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B);*/
-    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
-            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
-            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(116,9,121,1) 35%, rgba(255,132,0,1) 100%);
     color: white;
     border-bottom: 0;
 }
 
 .row-content {
-    padding: 50px 0;
+    padding: 0px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
 }
@@ -54,11 +54,19 @@ h3{
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5);
+   /* background-color: rgba(0, 0, 0, 0.5);*/
 }
-
+.container{
+    width:100%;
+    margin:0;
+    padding:0;
+}
+.no-padding {
+    padding-left: 0;
+    padding-right: 0;
+  }
 .carousel {
-    border: solid #5637DD;
+    width:100%;
 }
 
 /*.tab-content{
