@@ -7,7 +7,7 @@ $color-dark: #60106b;
 $color-black-transparent: rgba(0, 0, 0, 0.5);
 
 $body-font: "Open Sans", sans-serif;
-$header-font: "Lobster", cursive;
+$header-font: "Open Sans", cursive;
 
 
 
@@ -18,16 +18,23 @@ body {
 
 h1, h2, h3 {
     font-family: $header-font;
+    color: $color-dark;
 }
 
-h2 {
-    color: $color-primary;
+.gal{
+    //height:200px;
+    background:$color-pale;
+    padding:1rem 0;
 }
 
-header {
-    h2 {
-        color: $color-pale;
-    }
+.masthead{
+    height:auto;
+    background-color: #ffffff;;
+}
+
+.menu-links{
+    text-decoration: none;
+    text-align: left!important;
 }
 
 .card-body{
@@ -39,25 +46,23 @@ header {
 .bg-primary{
     background-color: rgb(4, 133, 101)!important;
 }
-h3{
-    color: rgb(4, 133, 101)
-}
+
 .site-footer {
-    background-image: linear-gradient($color-pale, white);
+
     padding: 20px 0;
 }
 
 .jumbotron {
+    height: auto;
     margin: 0;
-    padding: 30px;
-    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
-    color: white;
+    color:white;
+    #wantWafflesBtn{
+        z-index:1025;
+    }
 }
 
 .row-content {
-    padding: 50px 0;
-    border-bottom: 1px ridge;
-    min-height: 200px;
+    padding: 0px 0;
 }
 
 .navbar {
@@ -65,31 +70,12 @@ h3{
 }
 
 .carousel {
-    border: solid $color-secondary;
+    width:auto; 
 }
 
-.carousel-caption {
-    background-color: $color-black-transparent;
-}
+.nav-item{
+ padding-right:50px;
 
-/*.tab-content{
-     border: 1px solid #DDD;
-     border-top: none;
-     padding: 10px;
-}*/
-
-/* change the color of active links */
-.nav-item.active .nav-link {
-    color: #ffffff;
-
-}
-/* change the color of links */
-.nav-item .nav-link {
-    color: lightblue;
-}
-/*change the color of hovered links */
-.nav-item:hover .nav-link {
-    color: pink;
 }
 
 #carouselButton {

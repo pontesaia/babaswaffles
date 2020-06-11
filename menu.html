@@ -65,9 +65,9 @@
             </button>
             <div class="collapse navbar-collapse" id="babasWaffles">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="index.html"> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="events.html"> Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="menu.html"> Menu</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="menu.html"> Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="gifts.html"> Gifts/Baskets</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
@@ -80,49 +80,7 @@
         </div>
     </nav>
 
-    <div class="container-fluid no-padding">
-        <div class="row row-content">
-            <div class="col">
-                <div id="homeCarousel" class="carousel slide" data-ride="carousel">
 
-                    <ol class="carousel-indicators">
-                        <li data-target="#homeCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#homeCarousel" data-slide-to="1"></li>
-                        <li data-target="#homeCarousel" data-slide-to="2"></li>
-                    </ol>
-
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100 img-fluid" src="img/cinnamon-roll-waffles.jpg" alt="Breadcrumb Trail Campground" />
-                            <div class="carousel-caption">
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100 img-fluid" src="img/chicken-waffles-kicky-syrup.jpg" alt="React Lake Campground" />
-                            <div class="carousel-caption">
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100 img-fluid" src="img/huevos-rancheros-breakfast-waffle-stack-recipe.jpg" alt="Chrome River Campground" />
-                            <div class="carousel-caption">
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#homeCarousel" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#homeCarousel" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-
-                </div>
-            </div>
-        </div>
-
-</div>
 
     <div id="orderModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
@@ -174,51 +132,155 @@
         <br/>
         <br/>
     
-        <h1>The Waffleumptious World of Waffles! <span class="badge badge-primary">Yum!</span></h1>
+        <h1>BaBa's Waffles Breakfast Club! <span class="badge badge-primary">Yum!</span></h1>
         <div id="accordion">
+            
             <div class="card">
-              <div class="card-header" id="headingOne">
-                <h5 class="mb-0">
-                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    <h3>We love Waffles...</h3>
-                  </button>
-                </h5>
-              </div>
-          
-              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                <div class="card-body">
-                    Whether you eat them savory or sweet, with your fingers or a fork, smothered in syrup or dusted with powdered sugar we can all agree: waffles are delicious. Hopefully, you have gained a deeper appreciation throughout the history of waffles. Got an instant craving? Come on into BaBa's and munch on an order of waffles right now!
+                <div class="card-header" id="headingZero">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseZero" aria-expanded="false" aria-controls="collapseZero">
+                     <h3 class="menu-links">Classic Crispy Waffles</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseZero" class="collapse" aria-labelledby="headingZero" data-parent="#accordion">
+                  <div class="card-body">
+                    The secret to these super-crispy waffles is using a little vegetable shortening. Make a large batch on the weekend, then grab and reheat on a rushed morning.</div>
+                </div>
+            </div>
+            
+
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                     <h3 class="menu-links">Chicken and Waffles</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                  <div class="card-body">
+                    A topping of fried chicken might be the only way to improve upon our classic, crispy waffles. Crunchy on the outside, our fried chicken gets its moist, tender insides from a buttermilk brine with hints of paprika, hot sauce and cayenne.                </div>
+                 </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                     <h3 class="menu-links">Ham and Cheese Waffles with an Egg</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                  <div class="card-body">
+                      Cracking eggs onto a well-greased waffle iron will give you perfectly cooked, intact sunny-side up eggs, complete with crispy, lacy edges. Break the yolks for a gooey topping to these Gruyere-and-ham-laden waffles.</div>
                 </div>
               </div>
-            </div>
-            <div class="card">
-              <div class="card-header" id="headingTwo">
-                <h5 class="mb-0">
-                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    <h3>Where it began...</h3>
-                  </button>
-                </h5>
-              </div>
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-                <div class="card-body">
-                    Waffles have been a favorite food for hundreds of years, possibly dating back to the 13th Century. It is safe to say that Americans have developed a bit of a fascination, perhaps an obsession. From novelty breakfast cereals to decadent masterpieces. Are frozen waffles your standard breakfast staple? Well, after you read about the history of waffles, you will earn a fine appreciation of this treat. So leego the eggo and dive into these tasty chronicles.  </div>
-              </div>
-            </div>
+           
+             
             <div class="card">
               <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
                   <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                   <h3>The History of Waffles...</h3>
+                   <h3 class="menu-links">Buttermilk Corn Waffles</h3>
                   </button>
                 </h5>
               </div>
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
-                    The first waffle irons with the characteristic honeycomb pattern appeared in the 1200’s when a craftsman designed and forged cooking irons. Orginal irons featured a hinged design. Consequently, the batter was poured in, pressed together, and cooked over an open hearth fire. It is at this time the word for waffles, which comes from the old French word, guafre, translated to Old English wafla, first appears in print.
-                    Over the years, in Europe, waffles become commonly sold by street vendors. As a result, by the 16th Century, all of the society is eating waffles. The poor make them using pretty much from flour and water. Therefore they resemble a thick biscuity cake. However, the privileged classes add eggs, milk, and honey which create a tasty, delicate treat. </div>
+                    A summery combination of corn and berries makes these rich, crispy-edged waffles stand out. They would easily work as savory treats, too, topped with a crab cake or fried shrimp and drizzled with remoulade sauce.</div>
               </div>
             </div>
+         
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                 <h3 class="menu-links">Sweet Potato Waffles with Marshmallows</h3>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+              <div class="card-body">
+                We topped dense, sweet potato waffles with mini marshmallows and maple syrup for a fun twist on the classic casserole.    </div>
           </div>
+        </div>
+    
+          <div class="card">
+            <div class="card-header" id="headingFive">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                 <h3 class="menu-links">Multigrain Waffles</h3>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+              <div class="card-body">
+                These slightly nutty waffles are packed with three different grains. Top with yogurt and fruit preserves for a hearty, healthy start to your morning.        </div>
+          </div>
+        </div>
+    
+          <div class="card">
+            <div class="card-header" id="headingSix">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                 <h3 class="menu-links">Pumpkin-Chipotle Waffles</h3>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+              <div class="card-body">
+                We serve these sweet and spicy Southwestern-inspired waffles with an orange- and cayenne-infused maple syrup for a citrus kick.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingSeven">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                 <h3 class="menu-links">Crisp and Airy Gluten-Free Waffles</h3>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+              <div class="card-body">
+                Gluten-free waffles are sometimes dense, but folding egg whites into the batter gives these waffles serious lift. Eaten hot from the iron, their edges are delicate and crisp. </div>
+          </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingEight">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                 <h3 class="menu-links">Ham and Cheese Waffles with an Egg</h3>
+                </button>
+              </h5>
+            </div>
+            </div>
+
+            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+              <div class="card-body">
+                  Cracking eggs onto a well-greased waffle iron will give you perfectly cooked, intact sunny-side up eggs, complete with crispy, lacy edges. Break the yolks for a gooey topping to these Gruyere-and-ham-laden waffles.</div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header" id="headingNine">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                 <h3 class="menu-links">Portuguese Sweet Bread Waffles</h3>
+                </button>
+              </h5>
+            </div>
+            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+              <div class="card-body">
+                  A Favorite in any Portuguese Vovoas' kitchen! Sweet, soft creamy sweet bread dough baked to perfection in an adorable heart-shaped waffle stack, and layered with whipped cream cheese, cinnamon and berries.</div>
+            </div>
+          </div>
+          </div>
+        
+        
           <br/>
           <br/>
           <h3>Baba's Waffle Wagon Gallery <span class="badge badge-primary">WoWser!</span></h3>
@@ -274,7 +336,7 @@
 
      
 
-        <h3 class="mb-3">Download our Wafflelicious Breakfast, Lunch or Dinner Menus!<span class="badge badge-primary">Supergood!</span></h3>
+        <h3 class="mb-3">Call for Our Wafflelicious Breakfast, Lunch or Dinner Event Menus! <span class="badge badge-primary">Supergood!</span></h3>
 
         <div class="row  mb-5"> 
 
@@ -313,9 +375,9 @@
             </button>
             <div class="collapse navbar-collapse" id="babasWaffles">
                 <ul class="navbar-nav">
-                    <li class="nav-item active"><a class="nav-link" href="index.html"> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="events.hml"> Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="menu.html"> Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="events.html"> Events</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="menu.html"> Menu</a></li>
                     <li class="nav-item"><a class="nav-link" href="gifts.html"> Gifts/Baskets</a></li>
                 </ul>
                 <span class="navbar-text ml-auto">
