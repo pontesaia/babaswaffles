@@ -9,132 +9,106 @@
         <!-- build:css css/main.css -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-
-       
-       <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css" />
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" />
         <title>Baba's Waffle Wagon</title>
     </head>
 <body>
-
-
-    <div class=" masthead">   
+  <div class=" masthead">   
     <header class="jumbotron jumbotron-fluid bg-light text-dark ">
         <div class="container">
             <div class="row align-items-start">
-                
-               
-                
                 <div class="col col-m-4">
                     <h1 class="">BaBa's Waffles</h1>   
                 </div>
                 <div class="col col-m-4 align-content-end">
-                            <!-- Example split danger button -->
-                            <div class="btn-group" id= "wantWafflesBtn" >
-                                <button type="button" class="btn btn-success">Want Waffles?</button>
-                                <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="sr-only">Toggle Dropdown</span>
-                                </button>
-                                <div class="dropdown-menu">
-                                <a class="dropdown-item" href="menu.html">Browse Menu!</a>
-                                <a class="dropdown-item" href="events.html">Plan An Event!</a>
-                                <a class="dropdown-item" href="gifts.html">Send A Gift Certificate!</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="http://facebook.com"><i class="fa fa-facebook"></i> Share Your Experience!</a>
-                            </div>
-                
-                </div>
-                
-            </div>
-        </div>
-            
-    
-    </header>
-</div>
-    
-
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="#"></a> 
-            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#babasWaffles">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="babasWaffles">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="events.html"> Events</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="menu.html"> Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="gifts.html"> Gifts/Baskets</a></li>
-                </ul>
-                <span class="navbar-text ml-auto">
-                    <a role="button" data-toggle="modal" data-target="#orderModal">
-                        <i class="fa fa-sign-in"> </i> Order</i>
-                    </a>
-
-                </span>
-            </div>
-        </div>
-    </nav>
-
-
-
-    <div id="orderModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Place an Order</h3>
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
-                        <form id="reserveForm">
-                            <div class="row form-group">
-                                    <label for="#numCampers" class="col-form-label col-sm-6">Number of Waffles</label>
-                                    <select name="numCampers" id="numCampers" class="form-control col col-form-label mx-3">
-                                    <option selected class="ml-3">Select</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                </select>
-                            </div>
-                            <div class="row form-group">  
-                                    <label for="#date" class="col-form-label col-sm-6">Date</label>
-                                    <input type="date" name="date" id="date" class="col form-control mx-3">
-                            </div>
-                            <div class="row">
-                                <div class="col">
-                                    <input type="submit" class="btn btn-primary" name="Search">
-                                </div>
-                            </div>
-                        </form>
+                    <!-- Example split danger button -->
+                    <div class="btn-group" id= "wantWafflesBtn" >
+                        <button type="button" class="btn btn-success">Want Waffles?</button>
+                        <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="menu.html">Browse Menu!</a>
+                        <a class="dropdown-item" href="events.html">Plan An Event!</a>
+                        <a class="dropdown-item" href="gifts.html">Send A Gift Certificate!</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="http://facebook.com"><i class="fa fa-facebook"></i> Share Your Experience!</a>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-  
-
-
-    <div ></div>
-    <div ></div>
-
-
-
+    </header>
+  </div>
+  <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
     <div class="container">
-        <br/>
-        <br/>
-        <br/>
-    
-        <h1>BaBa's Waffles Breakfast Club! <span class="badge badge-primary">Yum!</span></h1>
-        <div id="accordion">
-            
+        <a class="navbar-brand" href="#"></a> 
+        <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#babasWaffles">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="babasWaffles">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html"> Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="events.html"> Events</a></li>
+                <li class="nav-item active"><a class="nav-link" href="menu.html"> Menu</a></li>
+                <li class="nav-item"><a class="nav-link" href="gifts.html"> Gifts/Baskets</a></li>
+            </ul>
+            <span class="navbar-text ml-auto">
+                <a role="button" data-toggle="modal" data-target="#orderModal">
+                    <i class="fa fa-sign-in"> </i> Waffle Up Order!</i>
+                </a>
+            </span>
+        </div>
+    </div>
+  </nav>
+  <div id="orderModal" class="modal fade" role="dialog">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Place a Waffle Bulk Order</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form id="reserveForm">
+                      <div class="row form-group">
+                          <label for="#waffleBulk" class="col-form-label col-sm-6">Big Number of Waffles</label>
+                          <select name="waffleBulk" id="waffleBulk" class="form-control col col-form-label mx-3">
+                            <option selected class="ml-3">Select</option>
+                            <option value="1">2 dozen</option>
+                            <option value="2">3 dozen</option>
+                            <option value="3">4 dozen</option>
+                            <option value="4">5 dozen</option>
+                            <option value="5">6 dozen</option>
+                          </select>
+                      </div>
+                      <div class="row form-group">  
+                        <label for="#date" class="col-form-label col-sm-6">Date</label>
+                        <input type="date" name="date" id="date" class="col form-control mx-3">
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                            <input type="submit" class="btn btn-primary" name="Search">
+                        </div>
+                      </div>
+                     </form>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div ></div>
+  <div ></div>
+  <div class="container">
+  <br/>
+  <br/>
+  <br/>
+  <h1>BaBa's Waffles Breakfast Club! <span class="badge badge-primary">Yum!</span></h1>
+        <div id="accordion"> 
             <div class="card">
                 <div class="card-header" id="headingZero">
                   <h5 class="mb-0">
@@ -148,8 +122,6 @@
                     The secret to these super-crispy waffles is using a little vegetable shortening. Make a large batch on the weekend, then grab and reheat on a rushed morning.</div>
                 </div>
             </div>
-            
-
             <div class="card">
                 <div class="card-header" id="headingOne">
                   <h5 class="mb-0">
@@ -163,7 +135,6 @@
                     A topping of fried chicken might be the only way to improve upon our classic, crispy waffles. Crunchy on the outside, our fried chicken gets its moist, tender insides from a buttermilk brine with hints of paprika, hot sauce and cayenne.                </div>
                  </div>
             </div>
-
             <div class="card">
                 <div class="card-header" id="headingTwo">
                   <h5 class="mb-0">
@@ -176,9 +147,7 @@
                   <div class="card-body">
                       Cracking eggs onto a well-greased waffle iron will give you perfectly cooked, intact sunny-side up eggs, complete with crispy, lacy edges. Break the yolks for a gooey topping to these Gruyere-and-ham-laden waffles.</div>
                 </div>
-              </div>
-           
-             
+            </div>   
             <div class="card">
               <div class="card-header" id="headingThree">
                 <h5 class="mb-0">
@@ -190,185 +159,153 @@
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
                 <div class="card-body">
                     A summery combination of corn and berries makes these rich, crispy-edged waffles stand out. They would easily work as savory treats, too, topped with a crab cake or fried shrimp and drizzled with remoulade sauce.</div>
+                </div>
               </div>
-            </div>
-         
-          <div class="card">
-            <div class="card-header" id="headingFour">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                 <h3 class="menu-links">Sweet Potato Waffles with Marshmallows</h3>
-                </button>
-              </h5>
-            </div>
-            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-              <div class="card-body">
-                We topped dense, sweet potato waffles with mini marshmallows and maple syrup for a fun twist on the classic casserole.    </div>
-          </div>
-        </div>
-    
-          <div class="card">
-            <div class="card-header" id="headingFive">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                 <h3 class="menu-links">Multigrain Waffles</h3>
-                </button>
-              </h5>
-            </div>
-            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-              <div class="card-body">
-                These slightly nutty waffles are packed with three different grains. Top with yogurt and fruit preserves for a hearty, healthy start to your morning.        </div>
-          </div>
-        </div>
-    
-          <div class="card">
-            <div class="card-header" id="headingSix">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                 <h3 class="menu-links">Pumpkin-Chipotle Waffles</h3>
-                </button>
-              </h5>
-            </div>
-            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
-              <div class="card-body">
-                We serve these sweet and spicy Southwestern-inspired waffles with an orange- and cayenne-infused maple syrup for a citrus kick.
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="headingSeven">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                 <h3 class="menu-links">Crisp and Airy Gluten-Free Waffles</h3>
-                </button>
-              </h5>
-            </div>
-            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
-              <div class="card-body">
-                Gluten-free waffles are sometimes dense, but folding egg whites into the batter gives these waffles serious lift. Eaten hot from the iron, their edges are delicate and crisp. </div>
-          </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="headingEight">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
-                 <h3 class="menu-links">Ham and Cheese Waffles with an Egg</h3>
-                </button>
-              </h5>
-            </div>
-            </div>
-
-            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
-              <div class="card-body">
-                  Cracking eggs onto a well-greased waffle iron will give you perfectly cooked, intact sunny-side up eggs, complete with crispy, lacy edges. Break the yolks for a gooey topping to these Gruyere-and-ham-laden waffles.</div>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-header" id="headingNine">
-              <h5 class="mb-0">
-                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
-                 <h3 class="menu-links">Portuguese Sweet Bread Waffles</h3>
-                </button>
-              </h5>
-            </div>
-            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
-              <div class="card-body">
-                  A Favorite in any Portuguese Vovoas' kitchen! Sweet, soft creamy sweet bread dough baked to perfection in an adorable heart-shaped waffle stack, and layered with whipped cream cheese, cinnamon and berries.</div>
-            </div>
-          </div>
-          </div>
-        
-        
-          <br/>
-          <br/>
-          <h3>Baba's Waffle Wagon Gallery <span class="badge badge-primary">WoWser!</span></h3>
-        
+              <div class="card">
+                <div class="card-header" id="headingFour">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    <h3 class="menu-links">Sweet Potato Waffles with Marshmallows</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                  <div class="card-body">
+                    We topped dense, sweet potato waffles with mini marshmallows and maple syrup for a fun twist on the classic casserole.    </div>
+                  </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingFive">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    <h3 class="menu-links">Multigrain Waffles</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                  <div class="card-body">
+                    These slightly nutty waffles are packed with three different grains. Top with yogurt and fruit preserves for a hearty, healthy start to your morning.        </div>
+                  </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSix">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    <h3 class="menu-links">Pumpkin-Chipotle Waffles</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+                  <div class="card-body">
+                    We serve these sweet and spicy Southwestern-inspired waffles with an orange- and cayenne-infused maple syrup for a citrus kick.
+                  </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingSeven">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    <h3 class="menu-links">Crisp and Airy Gluten-Free Waffles</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+                  <div class="card-body">
+                    Gluten-free waffles are sometimes dense, but folding egg whites into the batter gives these waffles serious lift. Eaten hot from the iron, their edges are delicate and crisp. </div>
+                  </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingEight">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    <h3 class="menu-links">Ham and Cheese Waffles with an Egg</h3>
+                    </button>
+                  </h5>
+                </div>
+              </div>
+              <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+                <div class="card-body">
+                    Cracking eggs onto a well-greased waffle iron will give you perfectly cooked, intact sunny-side up eggs, complete with crispy, lacy edges. Break the yolks for a gooey topping to these Gruyere-and-ham-laden waffles.</div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="headingNine">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    <h3 class="menu-links">Portuguese Sweet Bread Waffles</h3>
+                    </button>
+                  </h5>
+                </div>
+                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+                  <div class="card-body">
+                      A Favorite in any Portuguese Vovoas' kitchen! Sweet, soft creamy sweet bread dough baked to perfection in an adorable heart-shaped waffle stack, and layered with whipped cream cheese, cinnamon and berries.</div>
+                  </div>
+                </div>
+              </div>
+              <br/>
+              <br/>
+              <h3>Baba's Waffle Wagon Gallery <span class="badge badge-primary">WoWser!</span></h3>
           <div class="container ml-100"> 
             <div class="row mt-4 "> 
                 <div class=" col col-s-12 gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-12.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-12.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class=" col col-s-12 gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-11.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-11.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class=" col col-s-12 gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-10.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-10.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class=" col col-s-12 gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-9.jpg" alt="React Lake Campground" />
-                </div>
-                 
+                    <img class="d-block w-100 img-fluid" src="img/waffles-9.jpg" alt="Yummy Waffles!" />
+                </div>  
             </div>
             <div class="row ">  
                 <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-8.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-8.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class="col-3 align-self-start gal" >
-                    <img class="d-block w-100 img-fluid" src="img/waffles-7.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-7.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-1.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-1.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-2.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-2.jpg" alt="Yummy Waffles!" />
                 </div>
-               
             </div>
             <div class="row  mb-5"> 
                 <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100  img-fluid" src="img/waffles-3.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100  img-fluid" src="img/waffles-3.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class="col-3 align-self-start gal" >
-                    <img class="d-block w-100  img-fluid" src="img/waffles-4.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100  img-fluid" src="img/waffles-4.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-5.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-5.jpg" alt="Yummy Waffles!" />
                 </div>
                 <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-6.jpg" alt="React Lake Campground" />
+                    <img class="d-block w-100 img-fluid" src="img/waffles-6.jpg" alt="Yummy Waffles!" />
                 </div>
-           
             </div>
         </div>
-         
-
-     
-
         <h3 class="mb-3">Call for Our Wafflelicious Breakfast, Lunch or Dinner Event Menus! <span class="badge badge-primary">Supergood!</span></h3>
-
         <div class="row  mb-5"> 
-
-
-           
-              
-            
-
-
-        <div class="card col-4">
-            <a href="#"><h3 class="mt-2">Breakfast Waffles</h3> </a>
-            <h4>Sweet & Savory</h4>
-         </div>
-         <div class="card col-4 align-self">
-            <a href="#"><h3 class="mt-2">Lunch Waffles</h3> </a>
-            <h4>Vegetarian Delights</h4>
-         </div>
-    
-         <div class="card col-4">
-            <a href="#"> <h3 class="mt-2">Dinner Waffles</h3> </a>
-            <h4>Hearty & Filling</h4>
-            
-         </div>
-     </div>
-
-</div>
-
-
- 
-
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-bottom">
-        <div class="container">
+           <div class="card col-4">
+              <a href="#"><h3 class="mt-2">Breakfast Waffles</h3> </a>
+              <h4>Sweet & Savory</h4>
+            </div>
+            <div class="card col-4 align-self">
+                <a href="#"><h3 class="mt-2">Lunch Waffles</h3> </a>
+                <h4>Vegetarian Delights</h4>
+            </div>
+            <div class="card col-4">
+              <a href="#"> <h3 class="mt-2">Dinner Waffles</h3> </a>
+              <h4>Hearty & Filling</h4>
+            </div>
+           </div>
+        </div>
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-bottom">
+          <div class="container">
             <a class="navbar-brand" href="#"></a> 
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#babasWaffles">
                 <span class="navbar-toggler-icon"></span>
@@ -384,12 +321,10 @@
                     <a role="button" data-toggle="modal" data-target="#orderModal">
                         <i class="fa fa-sign-in"> </i> Order</i>
                     </a>
-
                 </span>
             </div>
-        </div>
-    </nav>
-
+          </div>
+        </nav>
 
  <!-- build:js js/main.js -->
  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
