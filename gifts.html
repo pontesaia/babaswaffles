@@ -9,54 +9,41 @@
         <!-- build:css css/main.css -->
         <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
 
-
-       
-       <!-- Additional CSS must be placed after Bootstrap CSS -->
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
-    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css" />
+        <!-- Additional CSS must be placed after Bootstrap CSS -->
+        <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+        <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" />
+        <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css" />
         <title>Baba's Waffle Wagon</title>
     </head>
 <body>
-
-
     <div class=" masthead">   
-    <header class="jumbotron jumbotron-fluid bg-light text-dark ">
-        <div class="container">
-            <div class="row align-items-start">
-                
-               
-                
-                <div class="col col-m-4">
-                    <h1 class="">BaBa's Waffles</h1>   
+        <header class="jumbotron jumbotron-fluid bg-light text-dark ">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col col-m-4">
+                        <h1 class="">BaBa's Waffles</h1>   
+                    </div>
+                    <div class="col col-m-4 align-content-end">
+                        <!-- Example split danger button -->
+                        <div class="btn-group" id= "wantWafflesBtn" >
+                            <button type="button" class="btn btn-success">Want Waffles?</button>
+                            <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                            <a class="dropdown-item" href="menu.html">Browse Menu!</a>
+                            <a class="dropdown-item" href="events.html">Plan An Event!</a>
+                            <a class="dropdown-item" href="gifts.html">Send A Gift Certificate!</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="http://facebook.com"><i class="fa fa-facebook"></i> Share Your Experience!</a>
+                        </div>
+                    </div> 
                 </div>
-                <div class="col col-m-4 align-content-end">
-                            <!-- Example split danger button -->
-                            <div class="btn-group" id= "wantWafflesBtn" >
-                                <button type="button" class="btn btn-success">Want Waffles?</button>
-                                <button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="sr-only">Toggle Dropdown</span>
-                                </button>
-                                <div class="dropdown-menu">
-                                <a class="dropdown-item" href="menu.html">Browse Menu!</a>
-                                <a class="dropdown-item" href="events.html">Plan An Event!</a>
-                                <a class="dropdown-item" href="gifts.html">Send A Gift Certificate!</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="http://facebook.com"><i class="fa fa-facebook"></i> Share Your Experience!</a>
-                            </div>
-                
-                </div>
-                
             </div>
-        </div>
-            
-    
-    </header>
-</div>
-    
-
+        </header>
+    </div>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
         <div class="container">
             <a class="navbar-brand" href="#"></a> 
@@ -74,14 +61,10 @@
                     <a role="button" data-toggle="modal" data-target="#orderModal">
                         <i class="fa fa-sign-in"> </i> Waffle Up Order!</i>
                     </a>
-
                 </span>
             </div>
         </div>
     </nav>
-
-    
-
     <div id="orderModal" class="modal fade" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -91,21 +74,21 @@
                 </div>
                 <div class="modal-body">
                     <div class="container-fluid">
-                        <form id="reserveForm">
+                        <form id="waffleForm">
                             <div class="row form-group">
                                 <label for="#waffleBulk" class="col-form-label col-sm-6">Big Number of Waffles</label>
                                 <select name="waffleBulk" id="waffleBulk" class="form-control col col-form-label mx-3">
-                                <option selected class="ml-3">Select</option>
-                                <option value="1">2 dozen</option>
-                                <option value="2">3 dozen</option>
-                                <option value="3">4 dozen</option>
-                                <option value="4">5 dozen</option>
-                                <option value="5">6 dozen</option>
-                            </select>
-                        </div>
+                                    <option selected class="ml-3">Select</option>
+                                    <option value="1">2 dozen</option>
+                                    <option value="2">3 dozen</option>
+                                    <option value="3">4 dozen</option>
+                                    <option value="4">5 dozen</option>
+                                    <option value="5">6 dozen</option>
+                                </select>
+                            </div>
                             <div class="row form-group">  
-                                    <label for="#date" class="col-form-label col-sm-6">Date</label>
-                                    <input type="date" name="date" id="date" class="col form-control mx-3">
+                                <label for="#date" class="col-form-label col-sm-6">Date</label>
+                                <input type="date" name="date" id="date" class="col form-control mx-3">
                             </div>
                             <div class="row">
                                 <div class="col">
@@ -118,20 +101,13 @@
             </div>
         </div>
     </div>
-  
-
-
     <div ></div>
     <div ></div>
-
-
-
     <div class="container">
         <br/>
         <br/>
         <br/>
-    
-        <h1>Wafflicious Weekly Celebrations! <span class="badge badge-primary">Yum!</span></h1>
+        <h1>Wafflicious Weeklies! <span class="badge badge-primary">Yum!</span></h1>
         <div id="accordion">
             <div class="card">
               <div class="card-header" id="headingOne">
@@ -141,7 +117,6 @@
                   </button>
                 </h5>
               </div>
-          
               <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
                 <div class="card-body">
                   Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
@@ -176,93 +151,72 @@
                 </div>
               </div>
             </div>
-          </div>
-          <br/>
-          <br/>
-          <h3>Baba's Waffle Wagon Gallery <span class="badge badge-primary">WoWser!</span></h3>
-        
-          <div class="container ml-100"> 
-            <div class="row mt-4 "> 
-                <div class=" col col-s-12 gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-12.jpg" alt="React Lake Campground" />
-                </div>
-                <div class=" col col-s-12 gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-11.jpg" alt="React Lake Campground" />
-                </div>
-                <div class=" col col-s-12 gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-10.jpg" alt="React Lake Campground" />
-                </div>
-                <div class=" col col-s-12 gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-9.jpg" alt="React Lake Campground" />
-                </div>
-                 
             </div>
-            <div class="row ">  
-                <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-8.jpg" alt="React Lake Campground" />
+            <br/>
+            <br/>
+            <h3>Baba's Waffle Wagon Gallery <span class="badge badge-primary">WoWser!</span></h3>
+            <div class="container ml-100"> 
+                <div class="row mt-4 "> 
+                    <div class=" col col-s-12 gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-12.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class=" col col-s-12 gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-11.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class=" col col-s-12 gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-10.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class=" col col-s-12 gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-9.jpg" alt="Delish Waffles!" />
+                    </div>
                 </div>
-                <div class="col-3 align-self-start gal" >
-                    <img class="d-block w-100 img-fluid" src="img/waffles-7.jpg" alt="React Lake Campground" />
+                <div class="row ">  
+                    <div class="col-3 align-self-start gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-8.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class="col-3 align-self-start gal" >
+                        <img class="d-block w-100 img-fluid" src="img/waffles-7.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class="col-3 align-self-start gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-1.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class="col-3 align-self-start gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-2.jpg" alt="Delish Waffles!" />
+                    </div>
                 </div>
-                <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-1.jpg" alt="React Lake Campground" />
+                <div class="row  mb-5"> 
+                    <div class="col-3 align-self-start gal">
+                        <img class="d-block w-100  img-fluid" src="img/waffles-3.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class="col-3 align-self-start gal" >
+                        <img class="d-block w-100  img-fluid" src="img/waffles-4.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class="col-3 align-self-start gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-5.jpg" alt="Delish Waffles!" />
+                    </div>
+                    <div class="col-3 align-self-start gal">
+                        <img class="d-block w-100 img-fluid" src="img/waffles-6.jpg" alt="Delish Waffles!" />
+                    </div>
                 </div>
-                <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-2.jpg" alt="React Lake Campground" />
-                </div>
-               
             </div>
+            <h3 class="mb-3">Wafflelicious Breakfast, Lunch or Dinner <span class="badge badge-primary">Supergood!</span></h3>
             <div class="row  mb-5"> 
-                <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100  img-fluid" src="img/waffles-3.jpg" alt="React Lake Campground" />
-                </div>
-                <div class="col-3 align-self-start gal" >
-                    <img class="d-block w-100  img-fluid" src="img/waffles-4.jpg" alt="React Lake Campground" />
-                </div>
-                <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-5.jpg" alt="React Lake Campground" />
-                </div>
-                <div class="col-3 align-self-start gal">
-                    <img class="d-block w-100 img-fluid" src="img/waffles-6.jpg" alt="React Lake Campground" />
-                </div>
-           
+            <div class="card col-4">
+                <a href="#"><h3 class="mt-2">Breakfast Waffles</h3> </a>
+                <h4>Sweet & Savory</h4>
+            </div>
+            <div class="card col-4 align-self">
+                <a href="#"><h3 class="mt-2">Lunch Waffles</h3> </a>
+                <h4>Vegetarian Delights</h4>
+            </div>
+        
+            <div class="card col-4">
+                <a href="#"> <h3 class="mt-2">Dinner Waffles</h3> </a>
+                <h4>Hearty & Filling</h4>
+                
             </div>
         </div>
-         
-
-     
-
-        <h3 class="mb-3">Wafflelicious Breakfast, Lunch or Dinner <span class="badge badge-primary">Supergood!</span></h3>
-
-        <div class="row  mb-5"> 
-
-
-           
-              
-            
-
-
-        <div class="card col-4">
-            <a href="#"><h3 class="mt-2">Breakfast Waffles</h3> </a>
-            <h4>Sweet & Savory</h4>
-         </div>
-         <div class="card col-4 align-self">
-            <a href="#"><h3 class="mt-2">Lunch Waffles</h3> </a>
-            <h4>Vegetarian Delights</h4>
-         </div>
-    
-         <div class="card col-4">
-            <a href="#"> <h3 class="mt-2">Dinner Waffles</h3> </a>
-            <h4>Hearty & Filling</h4>
-            
-         </div>
-     </div>
-
-</div>
-
-
- 
-
+    </div>
     <nav class="navbar navbar-expand-sm navbar-dark sticky-bottom">
         <div class="container">
             <a class="navbar-brand" href="#"></a> 
@@ -280,12 +234,10 @@
                     <a role="button" data-toggle="modal" data-target="#orderModal">
                         <i class="fa fa-sign-in"> </i> Order</i>
                     </a>
-
                 </span>
             </div>
         </div>
     </nav>
-
 
  <!-- build:js js/main.js -->
  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
